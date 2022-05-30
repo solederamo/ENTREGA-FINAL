@@ -12,6 +12,11 @@ header div img {width: 100%;
 .headerimagen {display: flex;
                justify-content: center;
                 width: 100%;
-                object-fit: cover;
                 }
 
+@media screen and (min-widht: 425px) {
+        .headerimagen {
+                width: 100%;
+                background-repeat: repeat;
+        }
+}

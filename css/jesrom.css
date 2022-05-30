@@ -44,8 +44,12 @@ header div img, .header-ext div img {
 .headerimagen {
   display: flex;
   justify-content: center;
-  width: 100%;
-  object-fit: cover; }
+  width: 100%; }
+
+@media screen and (min-widht: 425px) {
+  .headerimagen {
+    width: 100%;
+    background-repeat: repeat; } }
 
 .contenedorindex {
   background-color: white;
@@ -349,7 +353,7 @@ form textarea {
   background-color: black;
   font-family: 'Quicksand', sans-serif;
   font-weight: bolder;
-  font-size: 10px;
+  font-size: 15px;
   color: white; }
 
 .footer-main {
@@ -379,7 +383,9 @@ form textarea {
 .footer-columna3 p {
   width: 100%;
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
 
 input {
   width: 400px;
