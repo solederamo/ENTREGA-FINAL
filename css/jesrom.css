@@ -41,13 +41,8 @@ header div img, .header-ext div img {
   justify-content: center;
   align-items: center; }
 
-.headerimagen {
-  display: flex;
-  justify-content: center;
-  width: 100%; }
-
 @media screen and (min-widht: 425px) {
-  .headerimagen {
+  .header div img {
     width: 100%;
     background-repeat: repeat; } }
 
