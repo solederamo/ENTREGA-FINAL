@@ -17,7 +17,7 @@
 .navbar {display: flex;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-evenly;
         height: 100px;}
 
 .navbar-nav {display: flex;
@@ -25,7 +25,6 @@
             padding: 10px;}
 
 .navbar-expand-lg .navbar-collapse {
-            display: flex!important;
             flex-basis: auto;
             flex-direction: row;}
     
@@ -34,6 +33,13 @@
         padding-right: 50px;
         align-items: center;
         flex-direction: row;}
+
+.navbar-light .navbar-toggler {color: rgba(0,0,0,.55);
+                                border-color: rgba(0,0,0,.1);
+                                display: flex;
+                                justify-content:flex-end;
+                                padding-left: 30px;
+            }
         
 ul {display: block;
             list-style-type: disc;
@@ -45,7 +51,8 @@ ul {display: block;
     
 .navbar>.container-fluid {display: flex;
                 flex-wrap: inherit;
-                align-items: center;}
+                align-items: center;
+                justify-content: space-between;}
             
 .bg-light {background-color: $color-nav !important;
         height: 150px;}
